@@ -28,7 +28,14 @@ Optional follow-ups after the 0.3.0 release. Not blockers for day-to-day use.
 - If pursuing Bioconductor later, evaluate `biocthis::use_bioc_github_action()` and `BiocCheck`, plus Bioconductor versioning / `biocViews` rules.
 - Note: Bioconductor submission has strict large-file limits; the packaged sqlite may need a different distribution path (for example AnnotationHub).
 
-## Zenodo DOI for 0.3.0
+## Zenodo DOI for 0.3.0 (in progress)
 
-- The README DOI badge still points at the original v0.01 Zenodo record (`10.5281/zenodo.3374105`).
-- To mint a DOI for **0.3.0**, enable the Zenodo–GitHub integration on this repository and create/publish a new versioned record from the `v0.3.0` release; do not reuse the old DOI for the new annotation snapshot.
+Waiting on one manual step: enable Zenodo–GitHub for `SiYangming/org.Osativa.eg.db`.
+
+1. Open https://zenodo.org/account/settings/github/ (log in with GitHub if needed).
+2. Click **Sync now**, find `SiYangming/org.Osativa.eg.db`, toggle it **On**.
+3. Reply in chat with either:
+   - “已开启”, or
+   - the new DOI if Zenodo already created one.
+
+Then we will trigger archival of `v0.3.0` (or cut a tiny follow-up release if needed), update the README badge to the new DOI, and keep the old `10.5281/zenodo.3374105` only as the original v0.01 citation.

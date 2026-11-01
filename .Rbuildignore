@@ -6,5 +6,6 @@
 ^data-raw$
 ^\.github$
 ^TODO\.md$
+^CITATION\.cff$
 ^.*\.tar\.gz$
 ^org\.Osativa\.eg\.db\.Rcheck$
