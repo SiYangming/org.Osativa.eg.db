@@ -1,5 +1,8 @@
 # org.Osativa.eg.db
 
+[![R-CMD-check](https://github.com/SiYangming/org.Osativa.eg.db/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SiYangming/org.Osativa.eg.db/actions/workflows/R-CMD-check.yaml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3374105.svg)](https://doi.org/10.5281/zenodo.3374105)
+
 Genome-wide annotation for *Oryza sativa* Japonica Group, for GO enrichment and MSU ↔ RAP-DB ID conversion.
 
 水稻日本晴注释包：用于 clusterProfiler 的 GO 富集，以及 MSU `LOC_Os*` 与 RAP-DB `Os*` 之间的双向 ID 转换。
@@ -22,9 +25,16 @@ Annotation snapshot: RAP-DB **2026-02-05** (RAP–MSU table and representative G
 Requires R >= 3.6 and AnnotationDbi >= 1.44.0.
 
 ```r
+# recommended: remotes
+# install.packages("remotes")
+remotes::install_github("SiYangming/org.Osativa.eg.db@v0.3.0")
+
+# or latest master
 # remotes::install_github("SiYangming/org.Osativa.eg.db")
+
+# or source tarball from the release / master archive
 install.packages(
-  "https://github.com/SiYangming/org.Osativa.eg.db/archive/refs/heads/master.tar.gz",
+  "https://github.com/SiYangming/org.Osativa.eg.db/archive/refs/tags/v0.3.0.tar.gz",
   repos = NULL,
   type = "source"
 )
