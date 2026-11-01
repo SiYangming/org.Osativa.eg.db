@@ -1,7 +1,7 @@
 # org.Osativa.eg.db
 
 [![R-CMD-check](https://github.com/SiYangming/org.Osativa.eg.db/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SiYangming/org.Osativa.eg.db/actions/workflows/R-CMD-check.yaml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3374105.svg)](https://doi.org/10.5281/zenodo.3374105)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23854621.svg)](https://doi.org/10.5281/zenodo.23854621)
 
 Genome-wide annotation for *Oryza sativa* Japonica Group, for GO enrichment and MSU ↔ RAP-DB ID conversion.
 
@@ -27,14 +27,14 @@ Requires R >= 3.6 and AnnotationDbi >= 1.44.0.
 ```r
 # recommended: remotes
 # install.packages("remotes")
-remotes::install_github("SiYangming/org.Osativa.eg.db@v0.3.0")
+remotes::install_github("SiYangming/org.Osativa.eg.db@v0.3.1")
 
 # or latest master
 # remotes::install_github("SiYangming/org.Osativa.eg.db")
 
-# or source tarball from the release / master archive
+# or source tarball from the release archive
 install.packages(
-  "https://github.com/SiYangming/org.Osativa.eg.db/archive/refs/tags/v0.3.0.tar.gz",
+  "https://github.com/SiYangming/org.Osativa.eg.db/archive/refs/tags/v0.3.1.tar.gz",
   repos = NULL,
   type = "source"
 )
@@ -107,10 +107,13 @@ See also: <https://guangchuangyu.github.io/software/clusterProfiler/>
 
 ## Citation / 引用
 
-Original release (v0.01) by xuzhougeng:
+This repository revision (maintainer: siyangming; annotation snapshot RAP-DB 2026-02-05):
+
+- Concept DOI (all versions): https://doi.org/10.5281/zenodo.23854621
+- Version DOI (`v0.3.1`): https://doi.org/10.5281/zenodo.23854622
+
+Original 2019 release (v0.01) by xuzhougeng:
 
 xuzhougeng. (2019, August 22). xuzhougeng/org.Osativa.eg.db v0.01 (Version v0.01). Zenodo. https://doi.org/10.5281/zenodo.3374105
 
-This repository revision **0.3.0** (maintainer: siyangming) updates RAP–MSU and GO to RAP-DB 2026-02-05, fixes taxonomy metadata, and refreshes package configuration. Cite the Zenodo record for the original package; mention this 0.3.0 revision when using the updated annotations.
-
-本仓库 **0.3.0**（维护者 siyangming）在原包基础上更新了 RAP-DB 2026-02-05 注释与包配置。使用原版请引用上述 Zenodo；使用本修订版时请同时说明 0.3.0。
+本仓库修订版（维护者 siyangming，注释快照 RAP-DB 2026-02-05）请引用上方新 DOI；原版 v0.01 仍引用 `10.5281/zenodo.3374105`。

@@ -1,6 +1,6 @@
 # TODO
 
-Optional follow-ups after the 0.3.0 release. Not blockers for day-to-day use.
+Optional follow-ups after the 0.3.1 release. Not blockers for day-to-day use.
 
 ## Annotation refresh
 
@@ -10,7 +10,7 @@ Optional follow-ups after the 0.3.0 release. Not blockers for day-to-day use.
   Rscript inst/scripts/make-orgdb.R
   ```
 
-  Then bump `Version` in `DESCRIPTION`, update `NEWS.md` / README snapshot date, and cut a new GitHub Release.
+  Then bump `Version` in `DESCRIPTION`, update `NEWS.md` / README snapshot date, and cut a new GitHub Release (Zenodo will mint a new version DOI automatically).
 
 ## CI matrix
 
@@ -28,14 +28,10 @@ Optional follow-ups after the 0.3.0 release. Not blockers for day-to-day use.
 - If pursuing Bioconductor later, evaluate `biocthis::use_bioc_github_action()` and `BiocCheck`, plus Bioconductor versioning / `biocViews` rules.
 - Note: Bioconductor submission has strict large-file limits; the packaged sqlite may need a different distribution path (for example AnnotationHub).
 
-## Zenodo DOI for 0.3.0 (in progress)
+## Zenodo DOI
 
-Waiting on one manual step: enable Zenodo–GitHub for `SiYangming/org.Osativa.eg.db`.
+Done for this deposit:
 
-1. Open https://zenodo.org/account/settings/github/ (log in with GitHub if needed).
-2. Click **Sync now**, find `SiYangming/org.Osativa.eg.db`, toggle it **On**.
-3. Reply in chat with either:
-   - “已开启”, or
-   - the new DOI if Zenodo already created one.
-
-Then we will trigger archival of `v0.3.0` (or cut a tiny follow-up release if needed), update the README badge to the new DOI, and keep the old `10.5281/zenodo.3374105` only as the original v0.01 citation.
+- Concept DOI: `10.5281/zenodo.23854621`
+- Version DOI (`v0.3.1`): `10.5281/zenodo.23854622`
+- Original v0.01 record remains `10.5281/zenodo.3374105` (do not reuse for new snapshots).

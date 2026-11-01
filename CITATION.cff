@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this 0.3.0 revision of org.Osativa.eg.db, please cite it as below."
+message: "If you use this revision of org.Osativa.eg.db, please cite it as below."
 type: software
 title: "org.Osativa.eg.db: Genome-wide annotation for Oryza sativa (MSU and RAP-DB)"
 version: 0.3.1
 date-released: "2026-11-01"
+doi: "10.5281/zenodo.23854622"
 license: Artistic-2.0
 repository-code: "https://github.com/SiYangming/org.Osativa.eg.db"
 url: "https://github.com/SiYangming/org.Osativa.eg.db"
@@ -25,3 +26,10 @@ keywords:
   - RAP-DB
   - MSU
   - Gene Ontology
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23854622
+    description: Version DOI for v0.3.1
+  - type: doi
+    value: 10.5281/zenodo.23854621
+    description: Concept DOI for all versions of this deposit
