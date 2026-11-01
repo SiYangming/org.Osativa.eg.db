@@ -6,7 +6,7 @@ Description: Organism annotation package for Oryza sativa Japonica Group.
     and enrichment. Gene Ontology terms come from the RAP-DB 2026-02-05
     representative annotation mapped onto MSU IDs. Because RAP-DB does not
     publish evidence codes in that file, EVIDENCE is recorded as IEA.
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: c(
     person("xuzhougeng", email = "xuzhougeng@163.com", role = "aut"),
     person("siyangming", email = "yangming-6863@qq.com",

@@ -1,3 +1,9 @@
+# org.Osativa.eg.db 0.3.1
+
+Citation/metadata release to archive the package on Zenodo after enabling
+the GitHub–Zenodo webhook. Annotation content is the same as 0.3.0
+(RAP-DB 2026-02-05 snapshot).
+
 # org.Osativa.eg.db 0.3.0
 
 Maintainer for this release: siyangming. Original package author xuzhougeng is retained as author.

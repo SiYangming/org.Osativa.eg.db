@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this 0.3.0 revision of org.Osativa.eg.db, please cite it as below."
 type: software
 title: "org.Osativa.eg.db: Genome-wide annotation for Oryza sativa (MSU and RAP-DB)"
-version: 0.3.0
+version: 0.3.1
 date-released: "2026-11-01"
 license: Artistic-2.0
 repository-code: "https://github.com/SiYangming/org.Osativa.eg.db"
