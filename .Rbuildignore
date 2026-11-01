@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.DS_Store$
+^\.git$
+^\.gitignore$
+^data-raw$
+^\.github$
+^.*\.tar\.gz$
+^org\.Osativa\.eg\.db\.Rcheck$

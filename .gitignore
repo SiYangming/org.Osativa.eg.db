@@ -1,0 +1,8 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user
+*.tar.gz
+data-raw/
+*.Rcheck/
+org.Osativa.eg.db.Rcheck/
