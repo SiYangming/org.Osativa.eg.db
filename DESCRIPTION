@@ -1,0 +1,26 @@
+Package: org.Osativa.eg.db
+Title: Genome-wide annotation for Oryza sativa (MSU and RAP-DB)
+Description: Organism annotation package for Oryza sativa Japonica Group.
+    The central gene ID (GID) is the MSU/RGAP LOC_Os identifier. RAP-DB
+    locus IDs are available as keytype RAP for bidirectional ID conversion
+    and enrichment. Gene Ontology terms come from the RAP-DB 2026-02-05
+    representative annotation mapped onto MSU IDs. Because RAP-DB does not
+    publish evidence codes in that file, EVIDENCE is recorded as IEA.
+Version: 0.3.0
+Authors@R: c(
+    person("xuzhougeng", email = "xuzhougeng@163.com", role = "aut"),
+    person("siyangming", email = "yangming-6863@qq.com",
+           role = c("aut", "cre"))
+    )
+Author: xuzhougeng [aut], siyangming [aut, cre]
+Maintainer: siyangming <yangming-6863@qq.com>
+Depends: R (>= 3.6.0), methods, AnnotationDbi (>= 1.44.0)
+Suggests: DBI, testthat
+License: Artistic-2.0
+Encoding: UTF-8
+NeedsCompilation: no
+URL: https://github.com/SiYangming/org.Osativa.eg.db
+BugReports: https://github.com/SiYangming/org.Osativa.eg.db/issues
+organism: Oryza sativa
+species: Oryza sativa
+biocViews: AnnotationData, Oryza_sativa, OrgDb
